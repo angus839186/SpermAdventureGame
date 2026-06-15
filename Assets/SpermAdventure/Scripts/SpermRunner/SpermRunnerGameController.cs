@@ -18,18 +18,23 @@ public class SpermRunnerGameController : MonoBehaviour
     [SerializeField] private GameObject deathPanel;
     [SerializeField] private Button retryButton;
     [SerializeField] private Button returnButton;
-    [SerializeField] private string instructionMessage = "向前移動，找到卵子，小心不要撞到子宮頸壁或免疫細胞";
+    [SerializeField] private string startMessage = "向前移動，找到卵子，小心不要撞到子宮頸壁或免疫細胞";
     [SerializeField] private string deathMessage = "挑戰失敗";
+
+    [SerializeField] private string winMessage = "成功找到卵子！";
 
 
     [Header("聲音提示")]
+    [SerializeField] private string goalHintMessage = "聆聽聲音的方向，找到正確的卵子";
     [SerializeField] private AudioSource directionAudioSource;
     [SerializeField] private float cueInterval = 1.5f;
 
 
     private bool goalsRevealed;
-    private bool gameEnded;
+    private bool gameEnd;
     public AudioClip cueClip;
+
+    private float goalReachedDelay = 4.5f;
 
     private void Start()
     {
@@ -37,7 +42,7 @@ public class SpermRunnerGameController : MonoBehaviour
             player.SetPositionAndRotation(spawnPoint.position, spawnPoint.rotation);
 
         deathPanel.SetActive(false);
-        messageText.text = instructionMessage;
+        messageText.text = startMessage;
 
         retryButton.onClick.AddListener(RestartLevel);
         returnButton.onClick.AddListener(ReturnToTitle);
@@ -47,10 +52,10 @@ public class SpermRunnerGameController : MonoBehaviour
 
     public void Die()
     {
-        if (gameEnded)
+        if (gameEnd)
             return;
 
-        gameEnded = true;
+        gameEnd = true;
         messageText.text = deathMessage;
         deathPanel.SetActive(true);
         SetPlayerEnabled(false);
@@ -58,52 +63,7 @@ public class SpermRunnerGameController : MonoBehaviour
         Cursor.visible = true;
     }
 
-    public void ReachGoal(SpermRunnerGoal goal)
-    {
-        if (gameEnded || !goalsRevealed)
-            return;
 
-        if (goal != correctGoal)
-        {
-            Die();
-            return;
-        }
-
-        gameEnded = true;
-        messageText.text = "成功找到卵子";
-        SetPlayerEnabled(false);
-        SceneManager.LoadScene("03_Mitosis");
-    }
-
-    private void ChooseCorrectGoal()
-    {
-        SpermRunnerGoal Left = goalLeft.GetComponent<SpermRunnerGoal>();
-        SpermRunnerGoal Right = goalRight.GetComponent<SpermRunnerGoal>();
-        correctGoal = Random.value < 0.5f ? Left : Right;
-    }
-
-    public void RevealGoals()
-    {
-        goalsRevealed = true;
-        messageText.text = "聆聽聲音提示，找到正確的卵子";
-        ChooseCorrectGoal();
-        directionAudioSource.panStereo = correctGoal == goalLeft ? -1f : 1f;
-        StartCoroutine(GoalSoundCoroutine());
-    }
-
-    private void PlayGoalHint()
-    {
-        directionAudioSource.PlayOneShot(cueClip);
-    }
-
-    IEnumerator GoalSoundCoroutine()
-    {
-        while (!gameEnded)
-        {
-            PlayGoalHint();
-            yield return new WaitForSeconds(cueInterval);
-        }
-    }
 
     private void SetPlayerEnabled(bool enabled)
     {
@@ -142,5 +102,61 @@ public class SpermRunnerGameController : MonoBehaviour
     private void ReturnToTitle()
     {
         SceneManager.LoadScene("00_Title");
+    }
+    private void ChooseCorrectGoal()
+    {
+        SpermRunnerGoal Left = goalLeft.GetComponent<SpermRunnerGoal>();
+        SpermRunnerGoal Right = goalRight.GetComponent<SpermRunnerGoal>();
+        correctGoal = Random.value < 0.5f ? Left : Right;
+    }
+
+    public void RevealGoals()
+    {
+        messageText.text = goalHintMessage;
+        ChooseCorrectGoal();
+        directionAudioSource.panStereo = correctGoal == goalLeft ? -1f : 1f;
+        StartCoroutine(GoalSoundCoroutine());
+    }
+
+    private void PlayGoalHint()
+    {
+        directionAudioSource.PlayOneShot(cueClip);
+    }
+
+    IEnumerator GoalSoundCoroutine()
+    {
+        while (!gameEnd)
+        {
+            PlayGoalHint();
+            yield return new WaitForSeconds(cueInterval);
+        }
+    }
+    public void ReachGoal(SpermRunnerGoal goal)
+    {
+
+        bool isWin = goal == correctGoal;
+
+        StartCoroutine(GoalReachedCoroutine(isWin));
+        SceneManager.LoadScene("03_Mitosis");
+    }
+
+    IEnumerator GoalReachedCoroutine(bool isWin)
+    {
+        if (!isWin)
+        {
+            Die();
+        }
+        else
+        {
+            gameEnd = true;
+            SetPlayerEnabled(false);
+            messageText.text = winMessage;
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
+        yield return new WaitForSeconds(goalReachedDelay); ;
+
+
+        SceneManager.LoadScene("03_Mitosis");
     }
 }
