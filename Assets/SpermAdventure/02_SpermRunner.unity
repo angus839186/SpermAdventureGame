@@ -188,7 +188,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.6075471, g: 0.6075471, b: 0.6075471, a: 0}
+  m_BackGroundColor: {r: 0.17254902, g: 0, b: 0, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -846,6 +846,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &667797300
 MeshFilter:
@@ -1050,6 +1051,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &674196416
 MeshFilter:
@@ -1420,6 +1422,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &910000200
 GameObject:
@@ -1706,8 +1709,10 @@ MonoBehaviour:
   deathPanel: {fileID: 217759068}
   retryButton: {fileID: 200328113}
   returnButton: {fileID: 1358917258}
-  instructionMessage: "\u5411\u524D\u79FB\u52D5\uFF0C\u627E\u5230\u5375\u5B50\uFF0C\u5C0F\u5FC3\u4E0D\u8981\u649E\u5230\u5B50\u5BAE\u9838\u58C1\u6216\u514D\u75AB\u7D30\u80DE"
+  startMessage: "\u5411\u524D\u79FB\u52D5\uFF0C\u627E\u5230\u5375\u5B50\uFF0C\u5C0F\u5FC3\u4E0D\u8981\u649E\u5230\u5B50\u5BAE\u9838\u58C1\u6216\u514D\u75AB\u7D30\u80DE"
   deathMessage: "\u6311\u6230\u5931\u6557"
+  winMessage: "\u6210\u529F\u627E\u5230\u5375\u5B50\uFF01"
+  goalHintMessage: "\u8046\u807D\u8072\u97F3\u7684\u65B9\u5411\uFF0C\u627E\u5230\u6B63\u78BA\u7684\u5375\u5B50"
   directionAudioSource: {fileID: 960956158}
   cueInterval: 1.5
   cueClip: {fileID: 0}
@@ -2183,14 +2188,14 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1631877710}
   m_Enabled: 1
-  serializedVersion: 11
+  serializedVersion: 12
   m_Type: 1
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
-  m_CookieSize: 10
+  m_CookieSize2D: {x: 10, y: 10}
   m_Shadows:
     m_Type: 2
     m_Resolution: -1
@@ -2366,6 +2371,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &1854559161
 MeshFilter:
@@ -2583,6 +2589,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!135 &2082062789
 SphereCollider:
@@ -2730,7 +2737,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 0.32, g: 0.82, b: 0.92, a: 1}
-    - _Color: {r: 0.31999996, g: 0.82, b: 0.92, a: 1}
+    - _Color: {r: 0.32, g: 0.82, b: 0.92, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
