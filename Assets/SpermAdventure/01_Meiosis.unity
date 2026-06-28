@@ -556,7 +556,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1152730514473041328, guid: c72bfdfb4fa15d547a5efd6f128f9ee5, type: 3}
       propertyPath: m_Name
-      value: Stage_Root
+      value: Meiosis_Root
       objectReference: {fileID: 0}
     - target: {fileID: 1329020320552208862, guid: c72bfdfb4fa15d547a5efd6f128f9ee5, type: 3}
       propertyPath: m_Text
