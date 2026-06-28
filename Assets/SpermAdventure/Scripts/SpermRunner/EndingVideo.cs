@@ -6,8 +6,10 @@ using System.IO;
 public class EndingVideo : MonoBehaviour
 {
     public VideoPlayer videoPlayer;
-    public GameObject endingPanel;
+    public GameObject startPanel;
     public GameObject RestartPanel;
+
+    public GameObject VideoPanel;
 
     void Start()
     {
@@ -25,24 +27,28 @@ public class EndingVideo : MonoBehaviour
 
         videoPlayer.loopPointReached += OnVideoFinished;
         videoPlayer.errorReceived += OnVideoError;
+
+        startPanel.SetActive(true);
+        RestartPanel.SetActive(false);
     }
 
     public void OnClickPlayVideo()
     {
-        endingPanel.SetActive(false);
+        startPanel.SetActive(false);
         videoPlayer.Play();
         Debug.Log("Play Video");
     }
 
     public void OnClickSkipVideo()
     {
-        endingPanel.SetActive(false);
+        startPanel.SetActive(false);
         RestartPanel.SetActive(true);
     }
 
     void OnVideoFinished(VideoPlayer vp)
     {
         RestartPanel.SetActive(true);
+        VideoPanel.SetActive(false);
     }
 
     void OnVideoError(VideoPlayer vp, string message)
