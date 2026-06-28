@@ -261,7 +261,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -105}
+  m_AnchoredPosition: {x: -4, y: -75}
   m_SizeDelta: {x: 110, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1084218431119625719
@@ -373,10 +373,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8977fee150ff6a4e99538b0cf102baf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: SpermAdventureScripts::MeiosisStagePrefab
-  title: "Step3:\u7B2C\u4E00\u6B21\u5206\u88C2"
-  prompt: "\u5C07\u56DB\u5C0D\u67D3\u8272\u9AD4\u62D6\u66F3\u81F3\u53F3\u5074\u5169\u9846\u65B0\u7D30\u80DE\u5167\u7684\u5C0D\u61C9\u4F4D\u7F6E"
-  hint: "\u8ACB\u89C0\u5BDF\u67D3\u8272\u9AD4\u7684\u9577\u77ED\u548C\u984F\u8272\u4F86\u653E\u7F6E"
-  failMessage: "\u9084\u6709\u67D3\u8272\u9AD4\u7684\u5206\u914D\u4F4D\u7F6E\u4E0D\u6B63\u78BA\u54E6!"
+  title: "Step3 : \u5C07\u56DB\u5C0D\u67D3\u8272\u9AD4\u7D44\u62D6\u66F3\u5230\u5C0D\u61C9\u4F4D\u7F6E\u9032\u884C\u7D44\u5408"
+  prompt: "\u62D6\u79FB\u6B64\u8655\u67D3\u8272\u9AD4 \u5230\u53F3\u5074\u5C0D\u61C9\u7684\u4F4D\u7F6E"
+  hint: "\u5C07\u56DB\u5C0D\u67D3\u8272\u9AD4 \u62D6\u5230\u53F3\u5074\u5C0D\u61C9\u4F4D\u7F6E
+    \u4E26\u7D44\u6210\u5169\u9846\u65B0\u7D30\u80DE"
+  failMessage: "\u67D3\u8272\u9AD4\u7684\u5C0D\u61C9\u4F4D\u7F6E\u4E0D\u6B63\u78BA"
   primaryButtonLabel: "\u6AA2\u67E5\u5206\u914D"
   passWithoutSlots: 0
   hidePrimaryButton: 0
@@ -838,7 +839,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -105}
+  m_AnchoredPosition: {x: -4, y: -75}
   m_SizeDelta: {x: 110, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6026090926411051740
@@ -1157,7 +1158,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 65}
+  m_AnchoredPosition: {x: -4, y: 105}
   m_SizeDelta: {x: 120, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7941722401281518018
@@ -1337,7 +1338,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 65}
+  m_AnchoredPosition: {x: -4, y: 105}
   m_SizeDelta: {x: 120, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8919165253355559340
@@ -1917,7 +1918,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4021751344829638796, guid: 4224c496bd753814080534354ae60cab, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -25
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4021751344829638796, guid: 4224c496bd753814080534354ae60cab, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2019,7 +2020,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7502732535962368058, guid: f70486564a2c667418bdc066733c4a79, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -25
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7502732535962368058, guid: f70486564a2c667418bdc066733c4a79, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2117,7 +2118,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 365770574286704560, guid: 0be1d38745a38d64fb7cc6a3a1cfec23, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -25
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 365770574286704560, guid: 0be1d38745a38d64fb7cc6a3a1cfec23, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2219,7 +2220,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5115992640184311237, guid: 38eaad57477be514da27700cf9f3440e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -25
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5115992640184311237, guid: 38eaad57477be514da27700cf9f3440e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

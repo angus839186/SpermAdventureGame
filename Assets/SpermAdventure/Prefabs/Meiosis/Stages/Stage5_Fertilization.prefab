@@ -53,10 +53,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8977fee150ff6a4e99538b0cf102baf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: SpermAdventureScripts::MeiosisStagePrefab
-  title: "Step5:\u9032\u5165\u5B50\u5BAE"
-  prompt: "\u9019\u6A23\u4E00\u4F86\uFF0C\u56DB\u9846\u55AE\u689D\u7CBE\u5B50\u7D30\u80DE\u8A95\u751F\u4E86!\u62D6\u66F3\u4EFB\u4E00\u9846\u7CBE\u5B50\u5230\u5B50\u5BAE\u7684\u4F4D\u7F6E\uFF0C\u9032\u5165\u4E0B\u4E00\u95DC"
-  hint: "\u5C07\u7CBE\u5B50\u653E\u5165\u5B50\u5BAE\u7684\u4F4D\u7F6E"
-  failMessage: "\u5C07\u7CBE\u5B50\u653E\u5165\u5B50\u5BAE\u7684\u4F4D\u7F6E"
+  title: "Step5 : \u7531\u55AE\u689D\u67D3\u8272\u9AD4\u8F49\u5316\u5B8C\u6210\u70BA\u7CBE\u5B50\u7D30\u80DE "
+  prompt: "\u62D6\u79FB\u6B64\u8655\u7CBE\u5B50\u7D30\u80DE \u5230\u53F3\u5074\u7684\u5B50\u5BAE\u89F8\u767C\u5340"
+  hint: "\u5C07\u4E00\u9846\u7CBE\u5B50\u7D30\u80DE\u653E\u5165 \u53F3\u5074\u5B50\u5BAE\u89F8\u767C\u5340
+    \u9032\u5165\u4E0B\u4E00\u968E\u6BB5"
+  failMessage: "\u5C1A\u672A\u5C07\u7CBE\u5B50\u653E\u5165\u5B50\u5BAE\u7684\u89F8\u767C\u4F4D\u7F6E"
   primaryButtonLabel: 
   passWithoutSlots: 0
   hidePrimaryButton: 0
@@ -138,7 +139,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u7CBE\u5B50\u7D30\u80DE"
+  m_Text: 
 --- !u!1 &1485855090333010873
 GameObject:
   m_ObjectHideFlags: 0
@@ -175,8 +176,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -200, y: -170}
-  m_SizeDelta: {x: 220, y: 220}
+  m_AnchoredPosition: {x: -620, y: 0}
+  m_SizeDelta: {x: 62, y: 176}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6981174453195230731
 CanvasRenderer:
@@ -199,14 +200,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.84, g: 0.94, b: 0.98, a: 0.72}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8c3152e6380203a4aac56685f441b6f0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fdd6b5be903a0454cbbc8b7c2b42c1d8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -310,7 +311,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u7CBE\u5B50\u7D30\u80DE"
+  m_Text: 
 --- !u!1 &2377096214416187463
 GameObject:
   m_ObjectHideFlags: 0
@@ -347,8 +348,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 200, y: 170}
-  m_SizeDelta: {x: 220, y: 220}
+  m_AnchoredPosition: {x: -540, y: 0}
+  m_SizeDelta: {x: 62, y: 176}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1897403461198873776
 CanvasRenderer:
@@ -371,14 +372,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.84, g: 0.94, b: 0.98, a: 0.72}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8c3152e6380203a4aac56685f441b6f0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fdd6b5be903a0454cbbc8b7c2b42c1d8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -439,7 +440,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 130, y: 100}
+  m_SizeDelta: {x: 200, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5695731104143824527
 CanvasRenderer:
@@ -462,7 +463,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Text
   m_Material: {fileID: 0}
-  m_Color: {r: 0.55, g: 0.05, b: 0.12, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -470,19 +471,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 48
+    m_Font: {fileID: 12800000, guid: 66840dc69f5f12148af09783825b12ec, type: 3}
+    m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 48
+    m_MaxSize: 50
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u5B50\u5BAE"
+  m_Text: "\u9032\u5165\u5B50\u5BAE"
 --- !u!1 &2875739566819014701
 GameObject:
   m_ObjectHideFlags: 0
@@ -561,7 +562,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u7CBE\u5B50\u7D30\u80DE"
+  m_Text: 
 --- !u!1 &4779809737710924957
 GameObject:
   m_ObjectHideFlags: 0
@@ -598,8 +599,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 200, y: -170}
-  m_SizeDelta: {x: 220, y: 220}
+  m_AnchoredPosition: {x: -460, y: 0}
+  m_SizeDelta: {x: 62, y: 176}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8547915131701906259
 CanvasRenderer:
@@ -622,14 +623,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.84, g: 0.94, b: 0.98, a: 0.72}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8c3152e6380203a4aac56685f441b6f0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fdd6b5be903a0454cbbc8b7c2b42c1d8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -691,8 +692,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -200, y: 170}
-  m_SizeDelta: {x: 220, y: 220}
+  m_AnchoredPosition: {x: -700, y: 0}
+  m_SizeDelta: {x: 62, y: 176}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1678495072700315746
 CanvasRenderer:
@@ -715,14 +716,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.84, g: 0.94, b: 0.98, a: 0.72}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8c3152e6380203a4aac56685f441b6f0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fdd6b5be903a0454cbbc8b7c2b42c1d8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -826,7 +827,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u7CBE\u5B50\u7D30\u80DE"
+  m_Text: 
 --- !u!1 &8833452753817520323
 GameObject:
   m_ObjectHideFlags: 0
@@ -863,8 +864,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 440}
-  m_SizeDelta: {x: 430, y: 170}
+  m_AnchoredPosition: {x: 260, y: 11}
+  m_SizeDelta: {x: 1002, y: 619}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7245170815401358202
 CanvasRenderer:
@@ -887,14 +888,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.72, b: 0.78, a: 0.86}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.86}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 61a86fafeb4e3a2488c3de39f1adbea3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

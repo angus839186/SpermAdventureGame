@@ -448,7 +448,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 600686696368040382, guid: c72bfdfb4fa15d547a5efd6f128f9ee5, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 400
+      value: 380
       objectReference: {fileID: 0}
     - target: {fileID: 600686696368040382, guid: c72bfdfb4fa15d547a5efd6f128f9ee5, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -456,7 +456,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 600686696368040382, guid: c72bfdfb4fa15d547a5efd6f128f9ee5, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 215
+      value: 224
       objectReference: {fileID: 0}
     - target: {fileID: 716445836214423301, guid: c72bfdfb4fa15d547a5efd6f128f9ee5, type: 3}
       propertyPath: m_Sprite
@@ -628,7 +628,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2986050712268422404, guid: c72bfdfb4fa15d547a5efd6f128f9ee5, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 715
+      value: 710
       objectReference: {fileID: 0}
     - target: {fileID: 3261082562193574527, guid: c72bfdfb4fa15d547a5efd6f128f9ee5, type: 3}
       propertyPath: m_Colors.m_HighlightedColor.a
@@ -688,7 +688,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4746920036321984570, guid: c72bfdfb4fa15d547a5efd6f128f9ee5, type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 35
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 4746920036321984570, guid: c72bfdfb4fa15d547a5efd6f128f9ee5, type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4761267316870053546, guid: c72bfdfb4fa15d547a5efd6f128f9ee5, type: 3}
       propertyPath: m_Sprite
@@ -896,7 +900,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8018707518383268942, guid: c72bfdfb4fa15d547a5efd6f128f9ee5, type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 32
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 8018707518383268942, guid: c72bfdfb4fa15d547a5efd6f128f9ee5, type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8565251983645197964, guid: c72bfdfb4fa15d547a5efd6f128f9ee5, type: 3}
       propertyPath: m_Text
