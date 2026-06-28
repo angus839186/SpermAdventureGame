@@ -255,10 +255,10 @@ MonoBehaviour:
   hintButtonLabel: "\u63D0\u793A"
   retryButtonLabel: "\u91CD\u4F86"
   stagePrefabs:
-  - {fileID: 4240997005839855192, guid: ef36b017d2dcb1242a37d44920f464ee, type: 3}
-  - {fileID: 7688669506892917409, guid: 8f1069d94c573984e9c67eeb0b688a27, type: 3}
-  - {fileID: 8150445076217262439, guid: 6aa53710e6e60f84aa39c0b47265b5b4, type: 3}
-  - {fileID: 1586125281121313296, guid: c8d14a2e1bb0fec4f8347d6690c58ded, type: 3}
+  - {fileID: 4240997005839855192, guid: a3c8ff1b86db56c419f937050e6da155, type: 3}
+  - {fileID: 7688669506892917409, guid: 5d64b9fc9df6a4c49bd249bdf59dce8c, type: 3}
+  - {fileID: 8150445076217262439, guid: a96773d0247ced446afcfc76846281a9, type: 3}
+  - {fileID: 1586125281121313296, guid: f81a3420ad0641e4f83e50d7ec294702, type: 3}
   titleText: {fileID: 1329020320552208862}
   promptText: {fileID: 4746920036321984570}
   hintText: {fileID: 8018707518383268942}

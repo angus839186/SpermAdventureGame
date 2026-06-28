@@ -131,7 +131,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: SpermAdventureScripts::MeiosisStagePrefab
   title: "Step1 : \u5C07\u56DB\u689D\u67D3\u8272\u9AD4\u9032\u884C\u6392\u5217\u8207\u8907\u88FD"
   prompt: "\u5C07\u6B64\u8655\u67D3\u8272\u9AD4 \u6E96\u5099\u9032\u884C\u8907\u88FD"
-  hint: "\u8ACB\u9EDE\u64CA\u6309\u9215\u9032\u884C\u67D3\u8272\u9AD4\u6392\u5217"
+  hint: "\u8ACB\u9EDE\u64CA\u6309\u9215\u9032\u884C\u67D3\u8272\u9AD4\u8907\u88FD"
   failMessage: 
   primaryButtonLabel: "\u67D3\u8272\u9AD4\u8907\u88FD"
   passWithoutSlots: 1
