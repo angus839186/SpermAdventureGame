@@ -560,7 +560,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1329020320552208862, guid: c72bfdfb4fa15d547a5efd6f128f9ee5, type: 3}
       propertyPath: m_Text
-      value: "Step1 : \u5C07\u56DB\u689D\u67D3\u8272\u9AD4\u62D6\u66F3\u5230\u53F3\u5074\u9032\u884C\u8907\u88FD\u8207\u6392\u5217"
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1329020320552208862, guid: c72bfdfb4fa15d547a5efd6f128f9ee5, type: 3}
       propertyPath: m_Color.b
@@ -766,6 +766,10 @@ PrefabInstance:
       propertyPath: m_Colors.m_HighlightedColor.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5795013324838908518, guid: c72bfdfb4fa15d547a5efd6f128f9ee5, type: 3}
+      propertyPath: m_Name
+      value: mainButton
+      objectReference: {fileID: 0}
     - target: {fileID: 6304091144517548032, guid: c72bfdfb4fa15d547a5efd6f128f9ee5, type: 3}
       propertyPath: m_Color.b
       value: 0.22745098
@@ -862,6 +866,10 @@ PrefabInstance:
       propertyPath: stageRoot
       value: 
       objectReference: {fileID: 1957604721}
+    - target: {fileID: 7444970350127509233, guid: c72bfdfb4fa15d547a5efd6f128f9ee5, type: 3}
+      propertyPath: mainButton
+      value: 
+      objectReference: {fileID: 1957604722}
     - target: {fileID: 8018707518383268942, guid: c72bfdfb4fa15d547a5efd6f128f9ee5, type: 3}
       propertyPath: m_Text
       value: 
@@ -889,6 +897,10 @@ PrefabInstance:
     - target: {fileID: 8018707518383268942, guid: c72bfdfb4fa15d547a5efd6f128f9ee5, type: 3}
       propertyPath: m_FontData.m_FontSize
       value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 8565251983645197964, guid: c72bfdfb4fa15d547a5efd6f128f9ee5, type: 3}
+      propertyPath: m_Text
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8565251983645197964, guid: c72bfdfb4fa15d547a5efd6f128f9ee5, type: 3}
       propertyPath: m_FontData.m_Font
@@ -924,6 +936,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1022953183196593182, guid: c72bfdfb4fa15d547a5efd6f128f9ee5, type: 3}
   m_PrefabInstance: {fileID: 1957604720}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1957604722 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6989074875662771319, guid: c72bfdfb4fa15d547a5efd6f128f9ee5, type: 3}
+  m_PrefabInstance: {fileID: 1957604720}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
 --- !u!1 &1976262107
 GameObject:
   m_ObjectHideFlags: 0

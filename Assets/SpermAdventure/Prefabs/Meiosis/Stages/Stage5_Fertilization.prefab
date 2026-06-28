@@ -53,13 +53,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8977fee150ff6a4e99538b0cf102baf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: SpermAdventureScripts::MeiosisStagePrefab
-  title: 6666666666666
-  prompt: "State 5: \u56DB\u9846\u55AE\u689D\u7CBE\u5B50\u7D30\u80DE\u5B8C\u6210\u3002\u62D6\u66F3\u4EFB\u4E00\u9846\u7CBE\u5B50\u5230\u5B50\u5BAE\u89F8\u767C\u5340\u3002"
-  hint: "\u62D6\u66F3\u4EFB\u4E00\u9846\u7CBE\u5B50\u5230\u53F3\u5074\u5B50\u5BAE\u89F8\u767C\u5340\u5373\u53EF\u9032\u5165\u4E0B\u4E00\u95DC\u3002"
-  failMessage: 
+  title: "Step5:\u9032\u5165\u5B50\u5BAE"
+  prompt: "\u9019\u6A23\u4E00\u4F86\uFF0C\u56DB\u9846\u55AE\u689D\u7CBE\u5B50\u7D30\u80DE\u8A95\u751F\u4E86!\u62D6\u66F3\u4EFB\u4E00\u9846\u7CBE\u5B50\u5230\u5B50\u5BAE\u7684\u4F4D\u7F6E\uFF0C\u9032\u5165\u4E0B\u4E00\u95DC"
+  hint: "\u5C07\u7CBE\u5B50\u653E\u5165\u5B50\u5BAE\u7684\u4F4D\u7F6E"
+  failMessage: "\u5C07\u7CBE\u5B50\u653E\u5165\u5B50\u5BAE\u7684\u4F4D\u7F6E"
   primaryButtonLabel: 
   passWithoutSlots: 0
-  hidePrimaryButton: 1
+  hidePrimaryButton: 0
 --- !u!1 &559033596395607568
 GameObject:
   m_ObjectHideFlags: 0

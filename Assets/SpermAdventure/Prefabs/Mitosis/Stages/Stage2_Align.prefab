@@ -3137,12 +3137,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8977fee150ff6a4e99538b0cf102baf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: SpermAdventureScripts::MeiosisStagePrefab
-  title: 333333333333
-  prompt: "Stage 2: \u5C07\u8907\u88FD\u5F8C\u7684\u67D3\u8272\u9AD4\u62D6\u5230\u4E2D\u592E
-    blueprint preview \u5C0D\u61C9\u4F4D\u7F6E\u3002"
-  hint: "\u7167\u900F\u660E blueprint \u7684\u984F\u8272\u3001\u9577\u77ED\u8207\u89D2\u5EA6\u653E\u7F6E\u3002"
-  failMessage: "Stage 2: \u9084\u6709\u67D3\u8272\u9AD4\u6C92\u6709\u653E\u5230\u6B63\u78BA\u7684
-    blueprint preview\u3002"
+  title: "\u6709\u7D72\u5206\u88C2:\u6392\u5217"
+  prompt: "\u5C07\u67D3\u8272\u9AD4\u62D6\u66F3\u5230\u53F3\u5074\u5C0D\u61C9\u4F4D\u7F6E"
+  hint: "\u8ACB\u89C0\u5BDF\u67D3\u8272\u9AD4\u7684\u9577\u77ED\u548C\u984F\u8272\u4F86\u653E\u7F6E"
+  failMessage: "\u9084\u6709\u67D3\u8272\u9AD4\u7684\u5206\u914D\u4F4D\u7F6E\u4E0D\u6B63\u78BA\u54E6!"
   primaryButtonLabel: "\u6AA2\u67E5\u6392\u5217"
   passWithoutSlots: 0
   hidePrimaryButton: 0

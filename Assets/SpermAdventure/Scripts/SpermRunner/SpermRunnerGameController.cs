@@ -153,10 +153,8 @@ public class SpermRunnerGameController : MonoBehaviour
             messageText.text = winMessage;
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
+            yield return new WaitForSeconds(goalReachedDelay); ;
+            SceneManager.LoadScene("03_Mitosis");
         }
-        yield return new WaitForSeconds(goalReachedDelay); ;
-
-
-        SceneManager.LoadScene("03_Mitosis");
     }
 }

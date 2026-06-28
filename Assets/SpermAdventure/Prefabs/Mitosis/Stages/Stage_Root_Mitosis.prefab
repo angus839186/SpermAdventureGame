@@ -262,14 +262,14 @@ MonoBehaviour:
   titleText: {fileID: 1329020320552208862}
   promptText: {fileID: 4746920036321984570}
   hintText: {fileID: 8018707518383268942}
-  primaryButton: {fileID: 6989074875662771319}
+  mainButton: {fileID: 6989074875662771319}
   hintButton: {fileID: 3261082562193574527}
   retryButton: {fileID: 5788084014988677223}
   stageRoot: {fileID: 3464965441456323232}
   uterusTarget: {fileID: 0}
   completionSceneName: 04_Embryo
-  completionDelaySeconds: 1.5
-  completionMessage: "\u6709\u7D72\u5206\u88C2\u5B8C\u6210\uFF0C\u5373\u5C07\u9032\u5165\u80DA\u80CE\u767C\u80B2\u968E\u6BB5\u3002"
+  completionDelaySeconds: 3.5
+  completionMessage: "\u606D\u559C\u4F60\u5B8C\u6210\u4E86\u4E00\u6B21\u6709\u7D72\u5206\u88C2\u7684\u904E\u7A0B\uFF0C\u80DA\u80CE\u53EF\u4EE5\u958B\u59CB\u767C\u80B2\u4E86"
 --- !u!1 &1395026728618654149
 GameObject:
   m_ObjectHideFlags: 0
@@ -799,7 +799,7 @@ GameObject:
   - component: {fileID: 5257569640566398349}
   - component: {fileID: 6989074875662771319}
   m_Layer: 0
-  m_Name: PrimaryButton
+  m_Name: MainButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

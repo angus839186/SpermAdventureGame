@@ -19,7 +19,7 @@ public class MeiosisGameController : MonoBehaviour
     [SerializeField] private Text hintText;
 
     [Header("UI按鈕")]
-    [SerializeField] private Button primaryButton;
+    [SerializeField] private Button mainButton;
     [SerializeField] private Button hintButton;
     [SerializeField] private Button retryButton;
 
@@ -119,7 +119,7 @@ public class MeiosisGameController : MonoBehaviour
             return;
 
         completionInProgress = true;
-        primaryButton.gameObject.SetActive(false);
+        mainButton.gameObject.SetActive(false);
         ShowFeedback(completionMessage, string.Empty);
         StartCoroutine(LoadCompletionSceneAfterDelay());
     }
@@ -184,10 +184,10 @@ public class MeiosisGameController : MonoBehaviour
         titleText.text = GetCurrentStageTitle();
         promptText.text = currentStage != null ? currentStage.Prompt : string.Empty;
         hintText.text = string.Empty;
-        primaryButton.gameObject.SetActive(currentStage != null && !currentStage.HidePrimaryButton);
-        primaryButton.GetComponentInChildren<Text>().text = currentStage != null ? currentStage.PrimaryButtonLabel : string.Empty;
-        primaryButton.onClick.RemoveAllListeners();
-        primaryButton.onClick.AddListener(ValidateCurrentStage);
+        mainButton.gameObject.SetActive(currentStage != null && !currentStage.HidePrimaryButton);
+        mainButton.GetComponentInChildren<Text>().text = currentStage != null ? currentStage.PrimaryButtonLabel : string.Empty;
+        mainButton.onClick.RemoveAllListeners();
+        mainButton.onClick.AddListener(ValidateCurrentStage);
         hintButton.GetComponentInChildren<Text>().text = hintButtonLabel;
         retryButton.GetComponentInChildren<Text>().text = retryButtonLabel;
     }
@@ -211,7 +211,7 @@ public class MeiosisGameController : MonoBehaviour
         bool valid = titleText != null
             && promptText != null
             && hintText != null
-            && primaryButton != null
+            && mainButton != null
             && hintButton != null
             && retryButton != null
             && stageRoot != null;

@@ -208,12 +208,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8977fee150ff6a4e99538b0cf102baf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: SpermAdventureScripts::MeiosisStagePrefab
-  title: 2222222222
-  prompt: "\u62D6\u79FB\u6B64\u8655\u67D3\u8272\u9AD4\u5230\u53F3\u5074"
-  hint: "\u7D30\u80DE\u5167\u6709\u56DB\u689D\u67D3\u8272\u9AD4 \u5169\u7D05\u5169\u85CD\u3001\u5169\u9577\u5169\u77ED
-    \u89C0\u5BDF\u67D3\u8272\u9AD4\u4E26\u9032\u884C\u8907\u88FD \u8907\u88FD\u5F8C\u9032\u884C\u67D3\u8272\u9AD4\u6392\u5217"
+  title: "Step1:\u8907\u88FD"
+  prompt: "\u67D3\u8272\u9AD4\u8907\u88FD\u5F8C\u6703\u4FDD\u7559\u539F\u672C\u7684\u984F\u8272\u8207\u9577\u77ED\u7279\u5FB5\uFF0C\u8ACB\u9EDE\u64CA\u6309\u9215\u958B\u59CB\u6392\u5217"
+  hint: "\u8ACB\u9EDE\u64CA\u6309\u9215\u9032\u5165\u67D3\u8272\u9AD4\u6392\u5217"
   failMessage: 
-  primaryButtonLabel: "\u9032\u5165\u6392\u5217"
+  primaryButtonLabel: "\u958B\u59CB\u6392\u5217"
   passWithoutSlots: 1
   hidePrimaryButton: 0
 --- !u!1001 &285250979616810990
@@ -290,7 +289,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5115992640184311237, guid: 38eaad57477be514da27700cf9f3440e, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -125
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 5115992640184311237, guid: 38eaad57477be514da27700cf9f3440e, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -396,7 +395,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7502732535962368058, guid: f70486564a2c667418bdc066733c4a79, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 155
+      value: 430
       objectReference: {fileID: 0}
     - target: {fileID: 7502732535962368058, guid: f70486564a2c667418bdc066733c4a79, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -498,7 +497,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 365770574286704560, guid: 0be1d38745a38d64fb7cc6a3a1cfec23, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 95
+      value: 370
       objectReference: {fileID: 0}
     - target: {fileID: 365770574286704560, guid: 0be1d38745a38d64fb7cc6a3a1cfec23, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -612,7 +611,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4021751344829638796, guid: 4224c496bd753814080534354ae60cab, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 20
+      value: 295
       objectReference: {fileID: 0}
     - target: {fileID: 4021751344829638796, guid: 4224c496bd753814080534354ae60cab, type: 3}
       propertyPath: m_AnchoredPosition.y
