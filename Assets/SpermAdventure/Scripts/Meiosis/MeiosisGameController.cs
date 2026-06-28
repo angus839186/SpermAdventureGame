@@ -63,7 +63,7 @@ public class MeiosisGameController : MonoBehaviour
     public void ShowHint()
     {
         if (currentStage != null)
-            ShowFeedback(currentStage.Hint, currentStage.Hint);
+            hintText.text = currentStage.Hint;
     }
 
     public void RetryCurrentStage()
@@ -181,7 +181,7 @@ public class MeiosisGameController : MonoBehaviour
 
     private void ApplyStageUi()
     {
-        titleText.text = title;
+        titleText.text = GetCurrentStageTitle();
         promptText.text = currentStage != null ? currentStage.Prompt : string.Empty;
         hintText.text = string.Empty;
         primaryButton.gameObject.SetActive(currentStage != null && !currentStage.HidePrimaryButton);
@@ -196,6 +196,14 @@ public class MeiosisGameController : MonoBehaviour
     {
         promptText.text = message;
         hintText.text = hint;
+    }
+
+    private string GetCurrentStageTitle()
+    {
+        if (currentStage != null && !string.IsNullOrEmpty(currentStage.Title))
+            return currentStage.Title;
+
+        return title;
     }
 
     private bool ValidateUiReferences()

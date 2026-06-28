@@ -208,6 +208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8977fee150ff6a4e99538b0cf102baf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: SpermAdventureScripts::MeiosisStagePrefab
+  title: 222222222222
   prompt: "Stage 1: \u67D3\u8272\u9AD4\u5DF2\u5B8C\u6210\u8907\u88FD\uFF0C\u6BCF\u689D\u67D3\u8272\u9AD4\u5F62\u6210\u4E00\u5C0D\u59CA\u59B9\u67D3\u8272\u5206\u9AD4\u3002"
   hint: "\u8907\u88FD\u5F8C\u6BCF\u4E00\u5C0D\u90FD\u4ECD\u4FDD\u7559\u539F\u672C\u7684\u984F\u8272\u8207\u9577\u77ED\u985E\u578B\u3002"
   failMessage: 

@@ -3,6 +3,7 @@ using UnityEngine;
 public class MeiosisStagePrefab : MonoBehaviour
 {
     [Header("提示文字")]
+    [SerializeField] private string title;
     [SerializeField] private string prompt;
     [SerializeField] private string hint;
     [SerializeField] private string failMessage;
@@ -12,6 +13,7 @@ public class MeiosisStagePrefab : MonoBehaviour
     [SerializeField] private bool passWithoutSlots;
     [SerializeField] private bool hidePrimaryButton;
 
+    public string Title => title;
     public string Prompt => prompt;
     public string Hint => hint;
     public string FailMessage => failMessage;

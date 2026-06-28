@@ -80,6 +80,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4021751344829638796}
     m_Modifications:
+    - target: {fileID: 5201438140087857037, guid: 0865213a52c54ee468ecac5ea39eb0bf, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8427542498238776185, guid: 0865213a52c54ee468ecac5ea39eb0bf, type: 3}
       propertyPath: m_Name
       value: ChromatidA
@@ -183,6 +187,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4021751344829638796}
     m_Modifications:
+    - target: {fileID: 5201438140087857037, guid: 0865213a52c54ee468ecac5ea39eb0bf, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8427542498238776185, guid: 0865213a52c54ee468ecac5ea39eb0bf, type: 3}
       propertyPath: m_Name
       value: ChromatidB

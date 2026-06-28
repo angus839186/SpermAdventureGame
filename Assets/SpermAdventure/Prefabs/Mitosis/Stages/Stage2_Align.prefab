@@ -1248,7 +1248,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: SpermAdventureScripts::MeiosisDropSlot
   expectedColor: 0
   expectedLength: 1
-  expectedPair: 1
+  needPair: 1
   requireExactColor: 1
   snapTarget: {fileID: 2170495649875674739}
 --- !u!1 &4193706806886872700
@@ -1874,7 +1874,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: SpermAdventureScripts::MeiosisDropSlot
   expectedColor: 1
   expectedLength: 0
-  expectedPair: 1
+  needPair: 1
   requireExactColor: 1
   snapTarget: {fileID: 7761515684536427023}
 --- !u!1 &6138215064537625476
@@ -2044,7 +2044,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: SpermAdventureScripts::MeiosisDropSlot
   expectedColor: 1
   expectedLength: 1
-  expectedPair: 1
+  needPair: 1
   requireExactColor: 1
   snapTarget: {fileID: 5028609819515389709}
 --- !u!1 &6422925721227918611
@@ -3002,7 +3002,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: SpermAdventureScripts::MeiosisDropSlot
   expectedColor: 0
   expectedLength: 0
-  expectedPair: 1
+  needPair: 1
   requireExactColor: 1
   snapTarget: {fileID: 3002316332497829801}
 --- !u!1 &7909039079661909801
@@ -3137,6 +3137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8977fee150ff6a4e99538b0cf102baf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: SpermAdventureScripts::MeiosisStagePrefab
+  title: 333333333333
   prompt: "Stage 2: \u5C07\u8907\u88FD\u5F8C\u7684\u67D3\u8272\u9AD4\u62D6\u5230\u4E2D\u592E
     blueprint preview \u5C0D\u61C9\u4F4D\u7F6E\u3002"
   hint: "\u7167\u900F\u660E blueprint \u7684\u984F\u8272\u3001\u9577\u77ED\u8207\u89D2\u5EA6\u653E\u7F6E\u3002"

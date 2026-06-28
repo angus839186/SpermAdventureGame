@@ -5,7 +5,9 @@ public class MeiosisDropSlot : MonoBehaviour
     [Header("染色體放置設定")]
     [SerializeField] private ChromosomeColor expectedColor = ChromosomeColor.Blue;
     [SerializeField] private ChromosomeLength expectedLength = ChromosomeLength.Long;
-    [SerializeField] private bool expectedPair;
+
+    [Header("是否需要成對")]
+    [SerializeField] private bool needPair;
     [SerializeField] private bool requireExactColor = true;
     [SerializeField] private RectTransform snapTarget;
 
@@ -27,7 +29,7 @@ public class MeiosisDropSlot : MonoBehaviour
         if (occupied)
             return false;
 
-        if (draggable.Length != expectedLength || draggable.IsPair != expectedPair)
+        if (draggable.Length != expectedLength || draggable.IsPair != needPair)
             return false;
 
         if (requireExactColor && draggable.ColorType != expectedColor)

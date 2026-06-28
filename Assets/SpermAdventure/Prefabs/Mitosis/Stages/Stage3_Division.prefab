@@ -545,7 +545,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: SpermAdventureScripts::MeiosisDropSlot
   expectedColor: 0
   expectedLength: 1
-  expectedPair: 1
+  needPair: 1
   requireExactColor: 1
   snapTarget: {fileID: 1150140387878670825}
 --- !u!1 &1586125281121313296
@@ -602,6 +602,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8977fee150ff6a4e99538b0cf102baf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: SpermAdventureScripts::MeiosisStagePrefab
+  title: 444444444444
   prompt: "Stage 3: \u5C07\u56DB\u5C0D\u67D3\u8272\u9AD4\u5206\u914D\u5230\u5DE6\u53F3\u5169\u500B\u65B0\u7D30\u80DE\uFF0C\u5B8C\u6210\u4E00\u6B21\u6709\u7D72\u5206\u88C2\u3002"
   hint: "\u5DE6\u53F3\u5169\u908A\u90FD\u8981\u5F97\u5230\u6B63\u78BA\u7684\u67D3\u8272\u9AD4\u7D44\u5408\uFF0C\u653E\u932F\u53EF\u4EE5\u6309\u91CD\u4F86\u91CD\u65B0\u6311\u6230\u3002"
   failMessage: "Stage 3: \u5206\u914D\u9084\u4E0D\u6B63\u78BA\uFF0C\u8ACB\u7167 blueprint
@@ -1505,7 +1506,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: SpermAdventureScripts::MeiosisDropSlot
   expectedColor: 1
   expectedLength: 1
-  expectedPair: 1
+  needPair: 1
   requireExactColor: 1
   snapTarget: {fileID: 6623459401061921489}
 --- !u!1 &4233029466869514895
@@ -1974,7 +1975,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: SpermAdventureScripts::MeiosisDropSlot
   expectedColor: 0
   expectedLength: 0
-  expectedPair: 1
+  needPair: 1
   requireExactColor: 1
   snapTarget: {fileID: 1128874839236964914}
 --- !u!1 &5628366300133804370
@@ -2231,7 +2232,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: SpermAdventureScripts::MeiosisDropSlot
   expectedColor: 1
   expectedLength: 0
-  expectedPair: 1
+  needPair: 1
   requireExactColor: 1
   snapTarget: {fileID: 6755975324877522812}
 --- !u!1 &6799864704728417653

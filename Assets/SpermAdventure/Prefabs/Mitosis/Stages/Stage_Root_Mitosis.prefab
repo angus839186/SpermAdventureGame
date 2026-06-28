@@ -251,7 +251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f5f9c7dd17a4d66b7da763a4d2dfbb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: SpermAdventureScripts::MeiosisGameController
-  title: "\u6709\u7D72\u5206\u88C2"
+  title: "\u7D30\u80DE\u5206\u88C2"
   hintButtonLabel: "\u63D0\u793A"
   retryButtonLabel: "\u91CD\u4F86"
   stagePrefabs:
@@ -985,4 +985,4 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u6709\u7D72\u5206\u88C2"
+  m_Text: 

@@ -34,7 +34,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 36}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 28, y: 215}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6848569599553507132
@@ -262,7 +262,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -105}
-  m_SizeDelta: {x: 110, y: 60}
+  m_SizeDelta: {x: 110, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1084218431119625719
 CanvasRenderer:
@@ -316,7 +316,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: SpermAdventureScripts::MeiosisDropSlot
   expectedColor: 0
   expectedLength: 1
-  expectedPair: 1
+  needPair: 1
   requireExactColor: 1
   snapTarget: {fileID: 1150140387878670825}
 --- !u!1 &1586125281121313296
@@ -373,6 +373,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8977fee150ff6a4e99538b0cf102baf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: SpermAdventureScripts::MeiosisStagePrefab
+  title: 44444444444
   prompt: "State 3: \u5C07\u56DB\u5C0D\u67D3\u8272\u9AD4\u62D6\u5230\u5DE6\u53F3\u5169\u9846\u65B0\u7D30\u80DE\u3002"
   hint: "\u5DE6\u908A\u653E\u85CD\u9577\u8207\u7D05\u77ED\uFF0C\u53F3\u908A\u653E\u7D05\u9577\u8207\u85CD\u77ED\uFF1B\u6BCF\u9846\u65B0\u7D30\u80DE\u90FD\u8981
     1 \u9577 1 \u77ED\u30011 \u85CD 1 \u7D05\u3002"
@@ -415,7 +416,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 25}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 28, y: 141}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6217210756121019934
@@ -726,7 +727,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 25}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 28, y: 141}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3722032890588267887
@@ -840,7 +841,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -105}
-  m_SizeDelta: {x: 110, y: 60}
+  m_SizeDelta: {x: 110, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6026090926411051740
 CanvasRenderer:
@@ -894,7 +895,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: SpermAdventureScripts::MeiosisDropSlot
   expectedColor: 1
   expectedLength: 1
-  expectedPair: 1
+  needPair: 1
   requireExactColor: 1
   snapTarget: {fileID: 6623459401061921489}
 --- !u!1 &4233029466869514895
@@ -931,7 +932,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 25}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 28, y: 141}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5009047925181219849
@@ -1006,7 +1007,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 36}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 28, y: 215}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4633744819549187391
@@ -1081,7 +1082,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 36}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 28, y: 215}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2171916552972595331
@@ -1159,7 +1160,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 65}
-  m_SizeDelta: {x: 120, y: 60}
+  m_SizeDelta: {x: 120, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7941722401281518018
 CanvasRenderer:
@@ -1213,7 +1214,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: SpermAdventureScripts::MeiosisDropSlot
   expectedColor: 0
   expectedLength: 0
-  expectedPair: 1
+  needPair: 1
   requireExactColor: 1
   snapTarget: {fileID: 1128874839236964914}
 --- !u!1 &6074711654025375330
@@ -1339,7 +1340,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 65}
-  m_SizeDelta: {x: 120, y: 60}
+  m_SizeDelta: {x: 120, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8919165253355559340
 CanvasRenderer:
@@ -1393,7 +1394,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: SpermAdventureScripts::MeiosisDropSlot
   expectedColor: 1
   expectedLength: 0
-  expectedPair: 1
+  needPair: 1
   requireExactColor: 1
   snapTarget: {fileID: 6755975324877522812}
 --- !u!1 &7449665141955864110
@@ -1430,7 +1431,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 25}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 28, y: 141}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8071428667777835875
@@ -1799,7 +1800,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 36}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 28, y: 215}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4257912754963094117
